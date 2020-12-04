@@ -15,3 +15,13 @@
 .ingredientList {
   margin-right: 30px;
 }
+
+.burgerPane{
+  position: relative;
+}
+
+.clear {
+  position: absolute;
+  bottom: 20px;
+  left: 45%;
+}

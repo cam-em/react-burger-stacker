@@ -54,7 +54,7 @@ const IngredientList = () => {
             color={ingredient.color}
           />
           ))}
-          <button onClick={clearBurgerList}>clear</button>
+          <button className="clear" onClick={clearBurgerList}>clear</button>
       </div>
     </>
   )
