@@ -1,15 +1,16 @@
-import React from "react";
+import React from "react"
 // Components imports
-import FunctionalComponent from "./components/FunctionalComponent";
+import IngredientList from "./components/Ingredient/IngredientList"
+import BurgerPane from "./components/Burger/BurgerPane"
 // CSS imports
-import "./css/App.css";
+import "./css/App.css"
 
 const App = () => {
   return (
     <div className="App">
-      <FunctionalComponent />
+      <IngredientList />
     </div>
-  );
-};
+  )
+}
 
-export default App;
+export default App
